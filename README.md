@@ -39,3 +39,26 @@ Below is a simplified view of how data flows through the system.
 ---
 
 ## Project Structure
+
+```
+resist-ai/
+├── app.py                 # Main Flask application
+├── model.py               # AI logic (mood analysis, fusion)
+├── utils.py               # Helper functions (environment, utilities)
+│
+├── templates/             # HTML templates
+│   └── index.html
+│
+├── static/                # Static assets
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+├── architecture.png       # System architecture diagram
+├── requirements.txt       # Python dependencies
+├── .gitignore             # Ignored files
+└── READM
+```
+
+
+## Project Structure
