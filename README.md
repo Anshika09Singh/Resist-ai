@@ -124,3 +124,11 @@ resist-ai/
 | POST   | `/analyze/voice`     | Processes audio and returns mood analysis    |
 | POST   | `/analyze/face`      | Detects facial emotion from image input      |
 | POST   | `/analyze/combo`     | Combines voice and face for final analysis   |
+
+## Getting Started
+
+```bash
+git clone https://github.com/Anshika09Singh/Resist-ai.git
+cd Resist-ai
+pip install -r requirements.txt
+python app.py
