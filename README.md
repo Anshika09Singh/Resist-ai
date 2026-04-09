@@ -59,6 +59,40 @@ resist-ai/
 ├── .gitignore             # Ignored files
 └── READM
 ```
+## How It Works (End-to-End)
 
+1. **User Input**
+   - The user provides input in the form of text, voice, or facial image.
+
+2. **Preprocessing**
+   - Voice input is converted to text using Whisper.
+   - Facial image is processed using DeepFace for emotion detection.
+   - Text input is cleaned and normalized for analysis.
+
+3. **Analysis**
+   - Text and transcribed voice are analyzed to detect mood, sentiment polarity, and confidence score.
+   - Facial data is used to identify dominant emotion.
+
+4. **Multimodal Fusion**
+   - Results from text, voice, and facial analysis are combined.
+   - A final mood is determined using fusion logic.
+
+5. **Context Integration**
+   - Environmental data such as AQI and temperature is incorporated.
+   - This helps generate more personalized recommendations.
+
+6. **Advice Generation**
+   - The system generates:
+     - Mood assessment
+     - Personalized suggestions
+     - Daily actionable steps
+     - Mental health check insights
+
+7. **Final Output**
+   - The user receives a complete response including:
+     - Detected mood
+     - Confidence score
+     - Suggestions and guidance
+     - Environmental context
 
 ## Project Structure
