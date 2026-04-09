@@ -113,4 +113,14 @@ resist-ai/
 
 ### Libraries & Tools
 - OpenCV – Image processing  
-- NumPy – Numerical computations  
+- NumPy – Numerical computations
+
+  ## API Endpoints
+
+| Method | Endpoint              | Description                                  |
+|--------|----------------------|----------------------------------------------|
+| GET    | `/`                  | Loads the main user interface                |
+| POST   | `/analyze/text`      | Analyzes text input and detects mood         |
+| POST   | `/analyze/voice`     | Processes audio and returns mood analysis    |
+| POST   | `/analyze/face`      | Detects facial emotion from image input      |
+| POST   | `/analyze/combo`     | Combines voice and face for final analysis   |
