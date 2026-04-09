@@ -58,7 +58,7 @@ Note: If GitHub does not render Mermaid diagrams, include the PNG diagram below 
 
 ## Architecture Diagram (PNG Fallback)
 
-Save the following image as `docs/architecture.png` and reference it below. (You can quickly export from draw.io / diagrams.net using the same blocks.)
+Save the following image as `architecture.png` and reference it below. (You can quickly export from draw.io / diagrams.net using the same blocks.)
 
 ![Architecture Diagram](docs/architecture.png)
 
