@@ -51,3 +51,11 @@ flowchart LR
     G[Environment Data<br>AQI and Temperature] --> F
 
     F --> H[Output<br>Mood, Confidence, Suggestions]
+
+Note: If GitHub does not render the Mermaid diagram correctly, refer to the architecture image below.
+
+---
+
+## Architecture Diagram
+
+![Architecture](architecture.png)
