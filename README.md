@@ -95,4 +95,22 @@ resist-ai/
      - Suggestions and guidance
      - Environmental context
 
-## Project Structure
+## Tech Stack
+
+### Backend
+- Python  
+- Flask  
+
+### AI / Machine Learning
+- Whisper – Speech-to-text processing  
+- DeepFace – Facial emotion detection  
+- Custom NLP – Mood analysis and sentiment detection  
+
+### Frontend
+- HTML  
+- CSS  
+- JavaScript  
+
+### Libraries & Tools
+- OpenCV – Image processing  
+- NumPy – Numerical computations  
